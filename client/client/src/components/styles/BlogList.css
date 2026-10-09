@@ -1,0 +1,72 @@
+.blog-list-page .blog-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.blog-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.blog-list-header h2 {
+  margin: 0;
+}
+
+.btn-create {
+  padding: 10px 16px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.blog-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.blog-table th,
+.blog-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.blog-table th {
+  background: #f3f4f6;
+}
+
+.blog-table .actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.blog-table .actions button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #c62828;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.no-blogs-cell {
+  text-align: center !important;
+  color: #666;
+}

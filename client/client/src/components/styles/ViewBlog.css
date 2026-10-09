@@ -1,0 +1,23 @@
+.view-blog {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 16px;
+  text-align: left;
+}
+
+.view-blog-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.view-blog-content {
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.view-blog-stats {
+  display: flex;
+  gap: 20px;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
+}
